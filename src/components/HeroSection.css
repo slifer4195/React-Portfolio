@@ -1,0 +1,78 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .hero-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .hello-world-container {
+    position: absolute;
+    top: 20%; /* Adjust this value to position the text */
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .hello-world {
+    font-size: 3rem;
+    margin: 0;
+    color: #00ffff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid #00ffff;
+    animation: typing-erasing 8s steps(24, end) infinite;
+  }
+  
+  .hero-text {
+    position: absolute;
+    bottom: 20%; /* Adjust this value to position the text */
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    color: #e1fd12c7;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    color: #ffffff;
+  }
+  
+  @keyframes typing-erasing {
+    0% {
+      width: 0;
+    }
+    33% {
+      width: 11ch;
+    }
+    66% {
+      width: 11ch;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00ffff; }
+  }
+  
