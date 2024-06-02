@@ -1,3 +1,28 @@
-.projects{
-    background-color: aqua;
-}
+/* Profile.css */
+
+.projects {
+    padding: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .project-item {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .project-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    color: #666;
+  }
+  

@@ -1,87 +1,69 @@
+/* Profile.css */
+
 .profile-container {
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    border-radius: 10px;
-    margin: 20px;
-  }
-  
-  .profile-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .profile-image {
-    border-radius: 50%;
-    width: 300px;
-    height: auto;
-    margin-right: 40px;
-  }
-  
-  .profile-text {
-    max-width: 600px;
-    text-align: left;
-    margin-left: 30px;
-  }
-  
-  .profile-text h2 {
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .profile-text pre {
-    font-size: 1.2rem;
-    background-color: #1E1E1E;
-    padding: 20px;
-    border-radius: 10px;
-    white-space: nowrap; /* Add this property */
-    overflow-x: auto; /* Add this property to enable horizontal scrolling */
-    color: white;
-  }
-  
-  .profile-text .keyword {
-    color: #569CD6;
-  }
-  
-  .profile-text .function-name {
-    color: #DCDCAA;
-  }
-  
-  .profile-text .variable {
-    color: #9CDCFE;
-  }
-  
-  .profile-text .equals {
-    color: #FF6347; /* Tomato color for '=' */
-  }
-  
-  .profile-text .value {
-    color: #CE9178; /* Light orange color for values */
-  }
-  
-  @media screen and (max-width: 768px) {
-    .profile-text h2 {
-      font-size: 1.5rem;
-    }
-  
-    .profile-text pre {
-      font-size: 0.8rem;
-    }
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+}
 
-    .profile-image {
-      border-radius: 50%;
-      width: 200px;
-      height: auto;
-      margin: 10px;
-    }
+.profile-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-    .profile-text {
-      margin: 0 auto; 
-    }
-    
-    .profile-text h2.about {
-      margin-left: 10px;
-    }
-  }
+.profile-image {
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.profile-text {
+  max-width: 600px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.profile-text h2.about {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.profile-text pre {
+  font-size: 1.2rem;
+  background-color: #1E1E1E;
+  padding: 20px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  color: white;
+}
+
+.profile-text .keyword {
+  color: #569CD6;
+}
+
+.profile-text .function-name {
+  color: #DCDCAA;
+}
+
+.profile-text .variable {
+  color: #9CDCFE;
+}
+
+.profile-text .equals {
+  color: #FF6347; /* Tomato color for '=' */
+}
+
+.profile-text .value {
+  color: #CE9178; /* Light orange color for values */
+}
+
+/* Add border between Profile and Projects */
+.profile-projects-divider {
+  border-top: 2px solid #ddd; /* Change color and thickness as needed */
+  margin-top: 20px; /* Adjust margin to add space between components */
+}
