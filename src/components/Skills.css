@@ -44,7 +44,7 @@
   color: white; /* White text color */
   border-radius: 25px; /* Rounded corners for the bars */
   width: 0; /* Start with 0 width */
-  transition: width 2s; /* Animate the width over 2 seconds */
+  transition: width 10s; /* Animate the width over 2 seconds */
 }
 
 /* Individual skill colors */

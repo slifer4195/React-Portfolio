@@ -21,12 +21,12 @@ function Skills() {
     });
 
     skillsRef.current.forEach(skill => {
-      observer.observe(skill);
+      if (skill) observer.observe(skill);
     });
 
     return () => {
       skillsRef.current.forEach(skill => {
-        observer.unobserve(skill);
+        if (skill) observer.unobserve(skill);
       });
     };
   }, []);
