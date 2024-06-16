@@ -1,28 +1,119 @@
-/* Profile.css */
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
 
-.projects {
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.project-card {
+  width: 300px;
+  height: auto;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* Use percentage to make it a circle */
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .sub-section, .sub-section-alternative {
+    padding: 40px;
+  }
+  .project-card {
+    width: 250px;
+  }
+  .project-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sub-section {
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
   }
-  
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 20px; /* Gap between grid items */
-  }
-  
-  .project-item {
+  .sub-section-alternative {
     padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin: 20px;
   }
-  
-  .project-item h3 {
-    margin-bottom: 10px;
+  .project-card {
+    width: 200px;
   }
-  
-  .project-item p {
-    color: #666;
+  .project-image {
+    width: 150px;
+    height: 150px;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    width: 80%;
+    margin: 10px 0;
+  }
+  .project-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-section, .sub-section-alternative {
+    padding: 10px;
+  }
+  .project-card {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 15px rgb(197, 195, 195);
+  }
+  .project-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .profile-image {
+    width: 200px; /* Decrease image size for smaller screens */
+    margin: 10px auto; /* Adjusted margin for better centering */
+  }
+}

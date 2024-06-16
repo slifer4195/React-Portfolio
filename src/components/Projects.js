@@ -11,17 +11,54 @@ function Projects() {
   ];
 
   return (
-    <div className='projects'>
-      <h2>Projects</h2>
-      <div className='project-grid'>
-        {projects.map(project => (
-          <div key={project.id} className='project-item'>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </div>
-        ))}
-      </div>
-    </div>
+   <>
+     <section class="sub-section-alternative" id="projects">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="images/project1.png" alt="Project One Image"/>
+                    <h3>Language Tutor chatbot</h3>
+
+                    <p class="subtext2">Korean language tutor that teach the user Korean language by engaging in a 
+                        friendly conversation with the user.
+                    </p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link"  target="_blank" 
+                        rel="noopener noreferrer" href="https://github.com/slifer4195/chatbotProject">View here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/project2.png" alt="Project One Image"/>
+                    <h3>Pokemon Tutorial website</h3>
+                    <p class="subtext2">This website recommends which type of move user should use depending on type
+                        of the opponenet pokemons. 
+                    </p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link" target="_blank" 
+                        rel="noopener noreferrer" href="https://github.com/slifer4195/poke">View here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/project3.png" alt="Project One Image"/>
+                    <h3>Denoising Image</h3>
+                    <p class="subtext2">Neural network program denoise images with multiple U-net models by combining
+                    results of multiple models.
+                    </p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link"  target="_blank" 
+                        rel="noopener noreferrer" href="https://github.com/slifer4195/Denoising-p1">View here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/project4.png" alt="Project One Image"/>
+                    <h3>Image Manipulation</h3>
+                    <p class="subtext2">Implementation of rescaling and resizing input image using dynamic arrays with C++ mempy
+                    </p>
+                    <hr/>
+                    <p class="subtext"><a class="project-link"  target="_blank" 
+                        rel="noopener noreferrer" href="https://github.com/slifer4195/imageManipulation">View here</a></p>
+                </div>
+                
+            </div>
+        </section>
+      </>
   );
 }
 
