@@ -13,12 +13,13 @@ function Projects() {
   return (
    <>
      <section class="sub-section-alternative" id="projects">
-            <h1>Projects</h1>
+            <h1 className='title'>Projects</h1>
+            <br/>
+            <br/>
             <div class="project-container">
                 <div class="project-card">
                     <img class="project-image" src="images/project1.png" alt="Project One Image"/>
                     <h3>Language Tutor chatbot</h3>
-
                     <p class="subtext2">Korean language tutor that teach the user Korean language by engaging in a 
                         friendly conversation with the user.
                     </p>

@@ -43,11 +43,11 @@
     color: white;
     z-index: 1;
   }
-  
+   
   .hero-text h1 {
     font-size: 4rem;
     margin: 0.5rem 0;
-    color: #e1fd12c7;
+    color: #ec9cf3c7;
   }
   
   .hero-text p {
@@ -77,3 +77,52 @@
   }
   
 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero-text.fade-in {
+    animation: fadeIn 3s ease-out;
+  }
+
+  .animated-text {
+    background-image: -webkit-linear-gradient(DarkSalmon 50%, LightYellow 50%);
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+  }
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  @keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+
+  .socials {
+    position: absolute;
+    bottom: 100px; /* Adjust as needed */
+    left: 47%; /* Adjust as needed */
+    display: flex;
+  }
+  
+  .social {
+    margin-right: 30px; /* Adjust spacing between social icons */
+    transition: color 0.3s ease; 
+  }
+
+  .social:hover {
+    opacity: 0.5; 
+  }

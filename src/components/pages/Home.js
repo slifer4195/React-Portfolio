@@ -5,6 +5,7 @@ import Profile from '../Profile'
 import Projects from '../Projects'
 import Skills from '../Skills'
 import Experience from '../Experience'
+import Publication from '../Publication'
 
 function Home() {
   return (
@@ -17,6 +18,8 @@ function Home() {
         <Experience />
         <div className="profile-projects-divider" />
         <Skills />
+        <div className="profile-projects-divider" />
+        <Publication />
         <Contact />
     </>
   )

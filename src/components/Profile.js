@@ -10,7 +10,8 @@ function Profile() {
           <h2 className='about'>About Me</h2>
           <pre>
             <code>
-              <span className="keyword">def</span> <span className="function-name">myself</span>():<br/>
+              <span className="keyword">def</span> <span className="function-name">my(</span><span className='self'>self</span>
+              <span >):</span><br/>
               &nbsp;&nbsp;&nbsp;&nbsp;<span className="variable">Education</span> <span className="equals">=</span> <span className="value">"Texas A&M University"</span> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;<span className="variable">languages</span> <span className="equals">=</span> <span className="value">"Java, Python, C++, Javascript"</span> <br />
               &nbsp;&nbsp;&nbsp;&nbsp;<span className="variable">frameworks</span> <span className="equals">=</span> <span className="value">"Spring Boot, Flask, QT, React"</span> <br />

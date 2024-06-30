@@ -35,13 +35,13 @@ function Skills() {
     <div className="skills-container">
       <h2 className="skills-header">Languages</h2>
       <div className="skill-item">
-        <p className="skill-text">HTML</p>
+        <p className="skill-text">C++</p>
         <div className="container">
           <div className="skills html" data-skill="90%" ref={el => skillsRef.current[0] = el}>90%</div>
         </div>
       </div>
       <div className="skill-item">
-        <p className="skill-text">CSS</p>
+        <p className="skill-text">Python</p>
         <div className="container">
           <div className="skills css" data-skill="80%" ref={el => skillsRef.current[1] = el}>80%</div>
         </div>
@@ -53,13 +53,13 @@ function Skills() {
         </div>
       </div>
       <div className="skill-item">
-        <p className="skill-text">PHP</p>
+        <p className="skill-text">Matlab</p>
         <div className="container">
           <div className="skills php" data-skill="60%" ref={el => skillsRef.current[3] = el}>60%</div>
         </div>
       </div>
       <div className="skill-item">
-        <p className="skill-text">MatLab</p>
+        <p className="skill-text">Java</p>
         <div className="container">
           <div className="skills matlab" data-skill="80%" ref={el => skillsRef.current[4] = el}>80%</div>
         </div>

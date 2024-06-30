@@ -1,37 +1,51 @@
 .experience-container {
-    padding: 20px;
-  }
-  
-  .experience-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .experience-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    overflow: hidden;
-  }
-  
-  .experience-details {
-    flex: 1;
-  }
-  
-  .experience-image {
-    width: 150px;
-    height: auto;
-    overflow: hidden;
-  }
-  
-  .experience-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
+  padding: 30px;
+}
+
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #f9f4f4; /* Optional: Add background color */
+}
+
+.experience-details {
+  flex: 1;
+  margin-right: 20px; /* Add margin to separate details from the image */
+}
+
+.experience-image {
+  padding-top: 10px;
+  width: 150px;
+  height: auto;
+  overflow: hidden;
+}
+
+.experience-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.company {
+  margin-bottom: 8px;
+}
+
+.pos-duration {
+  margin-bottom: 6px;
+}
+
+.pos {
+  font-size: 20px;
+}

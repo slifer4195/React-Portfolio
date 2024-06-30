@@ -15,6 +15,11 @@
   flex-wrap: wrap;
 }
 
+.self { 
+  color: rgb(254, 206, 116);
+  display: inline;
+}
+
 .profile-image {
   border-radius: 50%;
   width: 300px;
@@ -47,7 +52,7 @@
 }
 
 .profile-text .function-name {
-  color: #DCDCAA;
+  color: #f8f8be;
 }
 
 .profile-text .variable {

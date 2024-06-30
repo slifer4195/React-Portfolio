@@ -1,0 +1,38 @@
+.download-button {
+    background-color: #2b3a83; /* Dark blue color */
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .download-button:hover {
+    background-color: #1e2859; /* Darker blue on hover */
+  }
+  
+  .download-button {
+  background-color: #2b3a83; /* Dark blue color */
+  color: rgb(255, 85, 0);
+  border: none;
+  padding: 15px 30px; /* Increase padding for a bigger button */
+  font-size: 18px; /* Increase font size */
+  font-weight: bold;
+  border-radius: 8px; /* Adjust border radius */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+  background-color: #1e2859; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.download-button:active {
+  background-color: #14203e; /* Even darker blue on click */
+  transform: scale(1); /* Reset size on click */
+}

@@ -4,11 +4,16 @@
   padding: 80px;
 }
 
+.title {
+  font-size: 28px;
+}
+
 .sub-section-alternative {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 .project-card {
