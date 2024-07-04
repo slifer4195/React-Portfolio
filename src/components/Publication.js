@@ -4,7 +4,7 @@ import DownloadButton from './DownloadButton';
 
 function Publication() {
   return (
-    <>
+    <div id = "Publication">
      <h1 className='title'>Publication</h1>
      <div className="publication-wrapper">
         <div className="publication-container">
@@ -22,13 +22,14 @@ function Publication() {
             <p><strong>Type :</strong> Research paper</p>
             <p><strong>Published :</strong> Volume-9, Issue-9</p>
             <p><strong>Copyright :</strong> © Institute of Research and Journals</p>
-            <p><strong>Link to publication - </strong> <a href="https://iraj.in/journal/IJACEN//paper_detail.php?paper_id=18155&nameFrame_Generative_Neural_Network_for_Denoising_Severely_Noisy_Images">View Here</a></p>
+            <p><strong>Link to publication - </strong> <a href="https://iraj.in/journal/IJACEN//paper_detail.php?paper_id=18155&nameFrame_Generative_Neural_Network_for_Denoising_Severely_Noisy_Images" target="_blank" rel="noopener noreferrer">View Here</a>
+            </p>
             <br />
-            <DownloadButton />
+            <DownloadButton pdfUrl="/images/publication.pdf" filename="publication.pdf" />
         </div>
         </div>
         </div>
-    </>
+    </div>
   
   );
 }

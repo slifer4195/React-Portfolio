@@ -12,7 +12,7 @@ function Projects() {
 
   return (
    <>
-     <section class="sub-section-alternative" id="projects">
+     <section class="sub-section-alternative" id="Projects">
             <h1 className='title'>Projects</h1>
             <br/>
             <br/>

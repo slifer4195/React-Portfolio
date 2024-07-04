@@ -32,7 +32,7 @@ function Skills() {
   }, []);
 
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="Skills">
       <h2 className="skills-header">Languages</h2>
       <div className="skill-item">
         <p className="skill-text">C++</p>

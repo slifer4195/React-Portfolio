@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
+// import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css';
 
 function Navbar() {
@@ -25,24 +26,24 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <a href="#About" className='nav-links' onClick={closeMobileMenu}>
                 About
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <a href="#Projects" className='nav-links' onClick={closeMobileMenu}>
                 Projects
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <a href="#Skills" className='nav-links' onClick={closeMobileMenu}>
                 Skills
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <a href="#Publication" className='nav-links' onClick={closeMobileMenu}>
                 Publication
-              </Link>
+              </a>
             </li>
           </ul>
 

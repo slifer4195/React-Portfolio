@@ -9,7 +9,8 @@ import Publication from '../Publication'
 
 function Home() {
   return (
-    <>
+    <>  
+    
         <HeroSection />
         <Profile />
         <div className="profile-projects-divider" />
