@@ -1,91 +1,114 @@
-.title{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
+/* General styles for the title */
+.title {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  text-align: center; /* Center align the title */
 }
+
+/* Styles for the publication wrapper */
 .publication-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Full viewport height */
+  padding: 20px;
+}
+
+/* Styles for the publication container */
+.publication-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Styles for the publication image */
+.publication-image {
+  max-width: 400px;
+  margin-right: 40px;
+}
+
+/* Styles for the publication description */
+.publication-description {
+  max-width: 600px;
+}
+
+/* Styles for the publication title */
+.publication-title {
+  font-size: 1.5em;
+  color: white;
+  background-color: #2b3a83;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the publication subtitle */
+.publication-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Styles for paragraphs inside the publication description */
+.publication-description p {
+  margin: 5px 0;
+}
+
+/* Styles for links inside the publication description */
+.publication-description a {
+  color: #2b3a83;
+  text-decoration: none;
+}
+
+/* Media query for tablet screens (less than 1100px) */
+@media (max-width: 1400px) {
+  .title {
+    margin-bottom: 5px; /* Further reduce margin */
+  }
+
+  .publication-wrapper {
+    height: auto; /* Set height to auto */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .publication-container {
+    flex-direction: column;
     align-items: center;
-    height: 80vh; /* Full viewport height */
     padding: 20px;
   }
-  .publication-label {
-    align-self: flex-start;
-  }
-  .publication-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 1px solid #ddd;
-    padding: 30px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
+
   .publication-image {
-    max-width: 400px;
-    margin-right: 40px;
-  }
-  
-  .publication-description {
-    max-width: 600px;
-  }
-  
-  .publication-title {
-    font-size: 1.5em;
-    color: white;
-    background-color: #2b3a83; /* Background color similar to your screenshot */
-    padding: 10px;
-    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 0;
     margin-bottom: 20px;
   }
-  
+
+  .publication-description {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Media query for phone screens (less than 768px) */
+@media (max-width: 768px) {
+  .publication-container {
+    padding: 10px;
+  }
+
+  .publication-title {
+    font-size: 1.3em;
+  }
+
   .publication-subtitle {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 1.1em;
   }
-  
-  .publication-description p {
-    margin: 5px 0;
-  }
-  
-  .publication-description a {
-    color: #2b3a83;
-    text-decoration: none;
-  }
-  
-  @media (max-width: 768px) {
-    .publication-wrapper {
-        height: 120vh;
-      }
-      
-    .publication-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .publication-image {
-      margin-right: 0;
-      margin-bottom: 20px;
-      width: 100%;
-      max-width: 100px;
-    }
-  
-    .publication-description {
-      max-width: 100%;
-      text-align: center;
-    }
-  
-    .publication-title {
-      text-align: center;
-    }
-
-
-  }
-  
-
+}

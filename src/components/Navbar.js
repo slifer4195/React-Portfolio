@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
-// import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css';
 
 function Navbar() {

@@ -40,8 +40,8 @@ function HeroSection() {
       <div className='hero-text' ref={heroTextRef}>
         <h1>Sung Rung Yoo</h1>
         <p className='animated-text'>Junior Software Engineer @ L3Harris</p>
-        <p>I am a full stack developer, specializing in backend development with Java Spring Boot, Python Flask, and frontend development with React.</p> 
-        <p>With a passion for innovative problem-solving and a love for coding, I strive to deliver seamless user experiences through my work.</p> 
+        <p className='describe'>I am a full stack developer, specializing in backend development with Java Spring Boot, Python Flask, and frontend development with React.</p> 
+        <p className='describe'>With a passion for innovative problem-solving and a love for coding, I strive to deliver seamless user experiences through my work.</p> 
       </div>
 
       <div class="socials">
@@ -67,7 +67,6 @@ function HeroSection() {
                             </div>
                         </div>
                     </div>
-                    
     </div>
   );
 }

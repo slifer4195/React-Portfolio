@@ -35,7 +35,7 @@ const experiences = [
 
 function Experience() {
   return (
-    <div className="experience-container">
+    <div className="experience-container" id='Experience'>
       <br />
       <h1>Work Experience</h1>
       <br />

@@ -49,3 +49,46 @@
 .pos {
   font-size: 20px;
 }
+
+/* Media query for screens smaller than 1150px */
+@media (max-width: 1450px) {
+   .experience-item {
+    flex-direction: column; 
+  }
+
+  .experience-image{
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 1050px) {
+
+  .experience-item {
+    flex-direction: row; 
+  }
+
+  .experience-image{
+    margin: none;
+  }
+
+  .experience-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  .experience-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+}
+
+
+
+

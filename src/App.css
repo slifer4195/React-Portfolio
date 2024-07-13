@@ -15,3 +15,7 @@ body, html {
   text-align: center;
   height: 100%;
 }
+
+html {
+  scroll-behavior: smooth;
+}
