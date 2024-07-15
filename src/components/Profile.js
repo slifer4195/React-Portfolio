@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div className='profile-container' id="about">
       <div className='profile-content'>
-        <img src='/images/profile.jpg' alt='Sung Rung Yoo' className='profile-image' />
+        <img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt='Sung Rung Yoo' className='profile-image' />
         <div className='profile-text'>
           <h2 className='about'>About Me</h2>
           <pre>

@@ -9,9 +9,9 @@ function Publication() {
      <div className="publication-wrapper">
         <div className="publication-container">
         <img 
-            src="images/journal.png" 
-            alt="journal" 
-            className="publication-image"
+          src={`${process.env.PUBLIC_URL}/images/journal.png`} 
+          alt="journal" 
+          className="publication-image"
         />
         <div className="publication-description">
             <h1 className="publication-title">Journal Paper</h1>

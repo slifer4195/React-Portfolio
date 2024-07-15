@@ -52,7 +52,7 @@ function Experience() {
               <p dangerouslySetInnerHTML={{ __html: experience.description }}></p>
             </div>
             <div className="experience-image">
-              <img src={experience.image} alt={`${experience.company}`} />
+              <img src={`${process.env.PUBLIC_URL}/${experience.image}`} alt={`${experience.company}`} />
             </div>
           </div>
         ))}
