@@ -12,9 +12,9 @@ function Projects() {
             <div className="project-container">
                 <div className="project-card">
                     <img className="project-image" src={`${process.env.PUBLIC_URL}/images/project1.png`} alt="Project One"/>
-                    <h3>Language Tutor chatbot</h3>
+                    <h3>Language Tutor Chatbot</h3>
                     <p className="subtext2">Korean language tutor that teach the user Korean language by engaging in a 
-                        friendly conversation with the user.
+                        friendly conversation.
                     </p>
                     <hr/>
                     <p className="subtext"><a className="project-link"  target="_blank" 
@@ -22,7 +22,7 @@ function Projects() {
                 </div>
                 <div className="project-card">
                     <img className="project-image" src={`${process.env.PUBLIC_URL}/images/project2.png`} alt="Project Two"/>
-                    <h3>Pokemon Tutorial website</h3>
+                    <h3>Pokemon Tutorial Site</h3>
                     <p className="subtext2">This website recommends which type of move user should use depending on type
                         of the opponenet pokemons. 
                     </p>

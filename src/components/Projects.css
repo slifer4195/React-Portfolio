@@ -1,8 +1,12 @@
 .sub-section {
-  display: flex;
-  justify-content: space-around;
-  padding: 80px;
+  width: 100%; /* Ensure it takes full width */
+  box-sizing: border-box; /* Include padding in width */
 }
+
+
+
+/* Adjust media queries if needed */
+
 
 .title {
   font-size: 28px;
