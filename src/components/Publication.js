@@ -4,13 +4,13 @@ import DownloadButton from './DownloadButton';
 
 function Publication() {
   return (
-    <div id = "Publication">
+    <div id = "publication">
      <h1 className='title'>Publication</h1>
      <div className="publication-wrapper">
         <div className="publication-container">
         <img 
             src="images/journal.png" 
-            alt="Description of the image" 
+            alt="journal" 
             className="publication-image"
         />
         <div className="publication-description">

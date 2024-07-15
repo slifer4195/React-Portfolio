@@ -3,7 +3,7 @@ import './Profile.css';
 
 function Profile() {
   return (
-    <div className='profile-container' id="About">
+    <div className='profile-container' id="about">
       <div className='profile-content'>
         <img src='/images/profile.jpg' alt='Sung Rung Yoo' className='profile-image' />
         <div className='profile-text'>

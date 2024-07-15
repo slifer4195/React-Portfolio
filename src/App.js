@@ -1,21 +1,29 @@
-// src/App.js
-import React from 'react';
-import Navbar from './components/Navbar';
-import './App.css';
-import {BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom'
-import HeroSection from './components/HeroSection';
-import Home from './components/pages/Home';
+import React from 'react'
+import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
+import Profile from './components/Profile'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Publication from './components/Publication'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 function App() {
   return (
-    <>
-      <Router>
+    <div>
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home/>}/>
-        </Routes>
-      </Router>
-    </>
+        <HeroSection />
+        <Profile />
+        <div className="profile-projects-divider" />
+        <Projects />
+        <div className="profile-projects-divider" />
+        <Experience />
+        <div className="profile-projects-divider" />
+        <Skills />
+        <div className="profile-projects-divider" />
+        <Publication />
+        <Contact />
+    </div>
   );
 }
 

@@ -39,6 +39,10 @@
   color: #00bbff;
 }
 
+.navbar-logo:hover{
+  color: #ffcc00;
+}
+
 .navbar-icon {
   margin-right: 10px;
 }

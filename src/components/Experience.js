@@ -35,7 +35,7 @@ const experiences = [
 
 function Experience() {
   return (
-    <div className="experience-container" id='Experience'>
+    <div className="experience-container" id='experience'>
       <br />
       <h1>Work Experience</h1>
       <br />
@@ -52,7 +52,7 @@ function Experience() {
               <p dangerouslySetInnerHTML={{ __html: experience.description }}></p>
             </div>
             <div className="experience-image">
-              <img src={experience.image} alt={`${experience.company} Image`} />
+              <img src={experience.image} alt={`${experience.company}`} />
             </div>
           </div>
         ))}
