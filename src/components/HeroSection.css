@@ -160,8 +160,7 @@
     animation: fadeIn 3s ease-out;
 }
 
-.socials {
-  bottom: 50px; /* Adjust as needed */
-  left: 5px;
-}
+  .socials {
+    bottom: 50px; /* Adjust as needed */
+  }
 }
