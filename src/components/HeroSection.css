@@ -161,6 +161,7 @@
 }
 
   .socials {
-    bottom: 50px; /* Adjust as needed */
+    bottom: 60px; /* Adjust as needed */
+    margin-left: 10px;
   }
 }
