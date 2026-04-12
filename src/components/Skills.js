@@ -5,6 +5,7 @@ function Skills() {
   const skillsRef = useRef([]);
 
   useEffect(() => {
+    const skills = skillsRef.current;
     const handleScroll = (entries) => {
       entries.forEach((entry) => {
         const skill = entry.target;
@@ -25,7 +26,7 @@ function Skills() {
     });
 
     return () => {
-      skillsRef.current.forEach(skill => {
+      skills.forEach(skill => {
         if (skill) observer.unobserve(skill);
       });
     };

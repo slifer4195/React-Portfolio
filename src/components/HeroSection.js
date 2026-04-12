@@ -41,9 +41,9 @@ function HeroSection() {
       </div>
       <div className='hero-text' ref={heroTextRef}>
         <h1>Sung Rung Yoo</h1>
-        <p className='animated-text'>Junior Software Engineer @ L3Harris</p>
-        <p className='describe'>I am a full stack developer, specializing in backend development with Java Spring Boot, Python Flask, and frontend development with React.</p> 
-        <p className='describe'>With a passion for innovative problem-solving and a love for coding, I strive to deliver seamless user experiences through my work.</p> 
+        <p className='animated-text'>Software Engineer @ Lockheed Martin</p>
+        <p className='describe'>Full stack developer specializing in backend systems with Java Spring Boot and Python Flask, and frontend experiences with React.</p>
+        <p className='describe'>I'm passionate about coding and always working on something new — whether it's a side project or picking up a new technology.</p>
       </div>
 
       <div className='socials'>

@@ -12,6 +12,7 @@ function Profile() {
             <code>
               <span className="keyword">def</span> <span className="function-name">my(</span><span className='self'>self</span>
               <span className='function-name'>):</span><br/>
+              <span className="variable">Employer</span> <span className="equals">=</span> <span className="value">"Lockheed Martin"</span> <br />
               <span className="variable">Education</span> <span className="equals">=</span> <span className="value">"Texas A&M University"</span> <br />
               <span className="variable">languages</span> <span className="equals">=</span> <span className="value">"Java, Python, C++, Javascript"</span> <br />
               <span className="variable">frameworks</span> <span className="equals">=</span> <span className="value">"Spring Boot, Flask, QT, React"</span> <br />

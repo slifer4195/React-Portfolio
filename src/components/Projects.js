@@ -6,7 +6,7 @@ function Projects() {
   return (
    <>
      <section className="sub-section-alternative" id="projects">
-            <h1 className='title'>Projects</h1>
+            <h1>Projects</h1>
             <br/>
             <br/>
             <div className="project-container">
